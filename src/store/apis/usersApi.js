@@ -1,4 +1,5 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
+import { faker } from "@faker-js/faker";
 
 const pause = (duration) => {
   return new Promise((resolve) => {
@@ -11,13 +12,14 @@ const usersApi = createApi({
   baseQuery: fetchBaseQuery({
     baseUrl: "http://localhost:3000",
     fetchFn: async (...args) => {
-      await pause(2000);
+      await pause(1);
       return fetch(...args);
     },
   }),
   endpoints(builder) {
     return {
       fetchUsers: builder.query({
+        providesTags: ["User"],
         query: () => {
           return {
             url: "/users",
@@ -26,17 +28,23 @@ const usersApi = createApi({
         },
       }),
       addUser: builder.mutation({
+        invalidatesTags: () => {
+          return [{ type: "User" }];
+        },
         query: () => {
           return {
             url: "/users",
             method: "POST",
             body: {
-              name: "Emin",
+              name: faker.name.fullName(),
             },
           };
         },
       }),
       removeUser: builder.mutation({
+        invalidatesTags: () => {
+          return [{ type: "User" }];
+        },
         query: (user) => {
           return {
             url: `/users/${user.id}`,

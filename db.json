@@ -1,12 +1,266 @@
 {
-    "users":[
-        {
-            "id": 1,
-            "name": "Julia"
-        },
-        {
-            "id":3,
-            "name":"Emin Kumru"
-        }
-    ]
+  "users": [
+    {
+      "id": 1,
+      "name": "Ebru Gündeş"
+    },
+    {
+      "id": 2,
+      "name": "Sezen Aksu"
+    }
+  ],
+  "albums": [
+    {
+      "userId": 1,
+      "title": "Sen Allahın Bir Lütfusun",
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "title": "Ebru Gündeş",
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "title": "Söyleyin Arkadaşlar",
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "title": "Sevemem",
+      "id": 5
+    },
+    {
+      "userId": 1,
+      "title": "Kusura Bakma",
+      "id": 6
+    },
+    {
+      "userId": 1,
+      "title": "Yıldızlar",
+      "id": 7
+    },
+    {
+      "userId": 1,
+      "title": "Ben Daha Büyük Aşklar Gördüm",
+      "id": 8
+    },
+    {
+      "userId": 1,
+      "title": "İnanç",
+      "id": 9
+    },
+    {
+      "userId": 1,
+      "title": "Biliyorsun",
+      "id": 11
+    },
+    {
+      "userId": 1,
+      "title": "Kovma Beni Kalbinden",
+      "id": 12
+    },
+    {
+      "userId": 1,
+      "title": "Kırık Çocuk",
+      "id": 13
+    },
+    {
+      "userId": 1,
+      "title": "Aşk",
+      "id": 14
+    },
+    {
+      "userId": 1,
+      "title": "Aşk Sana Benzer",
+      "id": 15
+    },
+    {
+      "userId": 2,
+      "title": "Firuze",
+      "id": 2
+    },
+    {
+      "userId": 2,
+      "title": "Deliveren",
+      "id": 3
+    },
+    {
+      "userId": 2,
+      "title": "Deli Kızın Türküsü",
+      "id": 4
+    },
+    {
+      "userId": 2,
+      "title": "Sen Ağlama",
+      "id": 5
+    },
+    {
+      "userId": 2,
+      "title": "Git",
+      "id": 6
+    },
+    {
+      "userId": 2,
+      "title": "Yaşanmamış Yıllar",
+      "id": 7
+    },
+    {
+      "userId": 2,
+      "title": "Aşktan Ne Haber",
+      "id": 8
+    },
+    {
+      "userId": 2,
+      "title": "Bahane",
+      "id": 9
+    },
+    {
+      "userId": 2,
+      "title": "Adı Bende Saklı",
+      "id": 10
+    },
+    {
+      "userId": 2,
+      "title": "Deliveren (2002)",
+      "id": 11
+    },
+    {
+      "userId": 2,
+      "title": "Yaz Bitmeden",
+      "id": 12
+    },
+    {
+      "userId": 2,
+      "title": "Yanarım",
+      "id": 13
+    },
+    {
+      "userId": 2,
+      "title": "Öptüm",
+      "id": 14
+    },
+    {
+      "userId": 2,
+      "title": "Biraz Pop Biraz Sezen",
+      "id": 15
+    }
+  ],
+  "photos": [
+    {
+      "albumId": 2,
+      "url": "https://loremflickr.com/150/150/abstract?lock=409290420518912",
+      "id": 4
+    },
+    {
+      "albumId": 2,
+      "url": "https://loremflickr.com/150/150/abstract?lock=1654662897860608",
+      "id": 6
+    },
+    {
+      "albumId": 2,
+      "url": "https://loremflickr.com/150/150/abstract?lock=7821533607100416",
+      "id": 7
+    },
+    {
+      "albumId": 2,
+      "url": "https://loremflickr.com/150/150/abstract?lock=8696588423659520",
+      "id": 8
+    },
+    {
+      "albumId": 2,
+      "url": "https://loremflickr.com/150/150/abstract?lock=5105547397300224",
+      "id": 9
+    },
+    {
+      "albumId": 2,
+      "url": "https://loremflickr.com/150/150/abstract?lock=4613439636897792",
+      "id": 10
+    },
+    {
+      "albumId": 2,
+      "url": "https://loremflickr.com/150/150/abstract?lock=6396622202208256",
+      "id": 11
+    },
+    {
+      "albumId": 2,
+      "url": "https://loremflickr.com/150/150/abstract?lock=4261076703117312",
+      "id": 12
+    },
+    {
+      "albumId": 2,
+      "url": "https://loremflickr.com/150/150/abstract?lock=3182336799670272",
+      "id": 13
+    },
+    {
+      "albumId": 2,
+      "url": "https://loremflickr.com/150/150/abstract?lock=3286654779392000",
+      "id": 14
+    },
+    {
+      "albumId": 3,
+      "url": "https://loremflickr.com/150/150/abstract?lock=1266401306214400",
+      "id": 15
+    },
+    {
+      "albumId": 3,
+      "url": "https://loremflickr.com/150/150/abstract?lock=1855098342866944",
+      "id": 16
+    },
+    {
+      "albumId": 3,
+      "url": "https://loremflickr.com/150/150/abstract?lock=7279776121225216",
+      "id": 17
+    },
+    {
+      "albumId": 3,
+      "url": "https://loremflickr.com/150/150/abstract?lock=8088641255505920",
+      "id": 18
+    },
+    {
+      "albumId": 3,
+      "url": "https://loremflickr.com/150/150/abstract?lock=1218105059573760",
+      "id": 20
+    },
+    {
+      "albumId": 3,
+      "url": "https://loremflickr.com/150/150/abstract?lock=4073760067944448",
+      "id": 21
+    },
+    {
+      "albumId": 3,
+      "url": "https://loremflickr.com/150/150/abstract?lock=8580568042176512",
+      "id": 22
+    },
+    {
+      "albumId": 3,
+      "url": "https://loremflickr.com/150/150/abstract?lock=8286804937539584",
+      "id": 23
+    },
+    {
+      "albumId": 3,
+      "url": "https://loremflickr.com/150/150/abstract?lock=1805176274944000",
+      "id": 25
+    },
+    {
+      "albumId": 3,
+      "url": "https://loremflickr.com/150/150/abstract?lock=246809647644672",
+      "id": 26
+    },
+    {
+      "albumId": 3,
+      "url": "https://loremflickr.com/150/150/abstract?lock=3236260445421568",
+      "id": 27
+    },
+    {
+      "albumId": 3,
+      "url": "https://loremflickr.com/150/150/abstract?lock=5820392776138752",
+      "id": 29
+    },
+    {
+      "albumId": 2,
+      "url": "https://loremflickr.com/150/150/abstract?lock=2304658812960768",
+      "id": 30
+    }
+  ]
 }

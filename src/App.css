@@ -1,0 +1,19 @@
+.topArrangment {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+.panelDiv {
+  background-color: lightgray;
+  border-radius: 30px;
+}
+.photoDiv {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+.photoDiv img {
+  padding: 10px;
+}
